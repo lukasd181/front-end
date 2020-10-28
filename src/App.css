@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.container{
+    width: 470px !important;
+    background-color: #FFF8DC;
+    padding: -15px -20px!important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.avatar img {
+    width: 32px;
+    border-radius: 32px;
   }
+
+.avatar {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.user-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar-container {
+    display:flex;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.user-name {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.user-location {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.post-function {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #66CDAA;
+}
+.post-left-function {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.post-info {
+    padding: 10px 
+}
+
+.post-info span {
+    font-weight: 800;
+}
+
+.content-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time-info {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-top: 2px solid#F5FFFA;
+    font-size: 12px;
+    font-weight: 200;
 }
